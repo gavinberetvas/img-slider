@@ -6,13 +6,36 @@
     position: inherit;
     height: 12rem;
     width: 12rem;
+    position: absolute;
     /* object-fit: contain; */
+}
+
+#one {
+    left: 0rem;
+    z-index: 5;
+}
+
+#two {
+    left: 12rem;
+}
+
+#three {
+    left: 24rem;
+}
+
+#four {
+    left: 36rem;
+}
+
+#five {
+    left: 48rem;
 }
 
 .img-wrapper {
     width: 12rem;
     height: 12rem;
-    /* overflow: hidden; */
+    position: relative;
+    overflow: hidden;
     margin-bottom: 2rem;
 }
 
