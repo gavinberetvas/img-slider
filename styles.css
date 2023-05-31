@@ -1,0 +1,45 @@
+* {
+    border: 1px solid black
+}
+
+.slider-photo {
+    position: inherit;
+    height: 12rem;
+    width: 12rem;
+    /* object-fit: contain; */
+}
+
+.img-wrapper {
+    width: 12rem;
+    height: 12rem;
+    /* overflow: hidden; */
+    margin-bottom: 2rem;
+}
+
+.arrow {
+    height: 3rem;
+
+}
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.play-pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playpause {
+    height: 4rem;
+}
+
+.indicator-buttons {
+    display: flex;
+    padding: 1rem 0rem;
+    justify-content: center;
+}
