@@ -10,12 +10,20 @@
   </head>
   <body>
     <div class="main-wrapper">
-      <img
-        src="./assets/arrow-left-drop-circle-outline.svg"
+      <div class="arrows">
+        <img
+          src="./assets/arrow-left-drop-circle-outline.svg"
+          class="arrow"
+          id="arrow-left"
+          alt="left arrow"
+        />
+        <img
+        src="./assets/arrow-right-drop-circle-outline.svg"
         class="arrow"
-        id="arrow-left"
-        alt="left arrow"
-      />
+        id="arrow-right"
+        alt=""
+            />
+      </div>
       <div class="frame">
         <div class="img-wrapper" id="imgWrapper">
           <img
@@ -54,13 +62,14 @@
             alt="boy and girl selfie"
           />
         </div>
+        
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow-right-drop-circle-outline.svg"
         class="arrow"
         id="arrow-right"
         alt=""
-      />
+      /> -->
     </div>
     <form class="indicator-buttons">
       <label for="option1">
@@ -89,8 +98,8 @@
       <br />
     </form>
     <div class="play-pause">
-      <img src="assets/play.svg" class="playpause" alt="play" />
-      <img src="assets/pause.svg" class="playpause" alt="pause" />
+      <img src="assets/play.svg" class="playpause" id="play" alt="play" />
+      <img src="assets/pause.svg" class="playpause" id="pause" alt="pause" />
     </div>
   </body>
 </html>
