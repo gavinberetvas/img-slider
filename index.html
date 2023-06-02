@@ -1,55 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>simple image slider</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-wrapper">
-        <img src="./assets/arrow-left-drop-circle-outline.svg" class="arrow" alt="left arrow">
-        <div class="img-wrapper">
-           <img src="/assets/photos for slider/CC9EB61D-.jpg" class="slider-photo" data-id="1" id="one" alt="orange cat">
-           <img src="/assets/photos for slider/IMG_3884.jpeg" class="slider-photo" data-id="2" id="two" alt="girl walking into the sunset">
-           <img src="/assets/photos for slider/IMG_4485.PNG" class="slider-photo" data-id="3" id="three" alt="girl with cat">
-           <img src="/assets/photos for slider/IMG_4487.PNG" class="slider-photo" data-id="4" id="four" alt="three kittens on a couch">
-           <img src="/assets/photos for slider/IMG_4619.jpeg" class="slider-photo" data-id="5" id="five" alt="boy and girl selfie">
+      <img
+        src="./assets/arrow-left-drop-circle-outline.svg"
+        class="arrow"
+        id="arrow-left"
+        alt="left arrow"
+      />
+      <div class="frame">
+        <div class="img-wrapper" id="imgWrapper">
+          <img
+            src="/assets/photos for slider/img1.jpg"
+            class="slider-photo"
+            data-id="1"
+            id="one"
+            alt="orange cat"
+          />
+          <img
+            src="/assets/photos for slider/img2.jpg"
+            class="slider-photo"
+            data-id="2"
+            id="two"
+            alt="girl walking into the sunset"
+          />
+          <img
+            src="/assets/photos for slider/img3.jpg"
+            class="slider-photo"
+            data-id="3"
+            id="three"
+            alt="girl with cat"
+          />
+          <img
+            src="/assets/photos for slider/img4.jpg"
+            class="slider-photo"
+            data-id="4"
+            id="four"
+            alt="three kittens on a couch"
+          />
+          <img
+            src="/assets/photos for slider/img5.jpg"
+            class="slider-photo"
+            data-id="5"
+            id="five"
+            alt="boy and girl selfie"
+          />
         </div>
-        <img src="./assets/arrow-right-drop-circle-outline.svg"  class="arrow" alt="">
+      </div>
+      <img
+        src="./assets/arrow-right-drop-circle-outline.svg"
+        class="arrow"
+        id="arrow-right"
+        alt=""
+      />
     </div>
     <form class="indicator-buttons">
-        <label for="option1">
-          <input type="radio" id="option1" name="options" value="1" checked>
-        </label>
-        <br>
-        
-        <label for="option2">
-          <input type="radio" id="option2" name="options" value="2">
-        </label>
-        <br>
-        
-        <label for="option3">
-          <input type="radio" id="option3" name="options" value="3">
-        </label>
-        <br>
-        
-        <label for="option4">
-          <input type="radio" id="option4" name="options" value="4">
-        </label>
-        <br>
-        
-        <label for="option5">
-          <input type="radio" id="option5" name="options" value="5">
-        </label>
-        <br>
-      </form>
-    <div class="play-pause">
-        <img src="assets/play.svg" class="playpause" alt="play">
-    <img src="assets/pause.svg"  class="playpause" alt="pause">
-    </div>
+      <label for="option1">
+        <input type="radio" id="option1" name="options" value="1" checked />
+      </label>
+      <br />
 
-</body>
+      <label for="option2">
+        <input type="radio" id="option2" name="options" value="2" />
+      </label>
+      <br />
+
+      <label for="option3">
+        <input type="radio" id="option3" name="options" value="3" />
+      </label>
+      <br />
+
+      <label for="option4">
+        <input type="radio" id="option4" name="options" value="4" />
+      </label>
+      <br />
+
+      <label for="option5">
+        <input type="radio" id="option5" name="options" value="5" />
+      </label>
+      <br />
+    </form>
+    <div class="play-pause">
+      <img src="assets/play.svg" class="playpause" alt="play" />
+      <img src="assets/pause.svg" class="playpause" alt="pause" />
+    </div>
+  </body>
 </html>
